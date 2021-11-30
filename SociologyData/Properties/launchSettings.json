@@ -1,7 +1,8 @@
 {
   "profiles": {
     "SociologyData": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "\"E:\\Doc\\Паша\\Учебные материалы\\текущее\\социология\\data\""
     }
   }
 }

@@ -12,13 +12,17 @@ namespace SociologyData.Data
         {
             new string[] { "Водитель (ПДД)", "Вод", "Водит" },
             new string[] { "Пешеход (ПДД)", "Пеш", "Пешеход" },
-            new string[] { "Все", "Таблица 1", "ДТП" }
+            new string[] { "Все", "Таблица 1", "ДТП" },
+            new string[] { "Нетрез", "НС" },
+            new string[] { "НДУ", "НДУГор" },
+            new string[] { "Скрыв", "Скр" }
         };
 
         public static string[][] RegionAliasGroups = new string[][]
         {
-            new string[] { "г. Санкт-Петербург", "г. С.-Петербург" },
-            new string[] { "г. Москва", "Москва", "гор. Москва" }
+            new string[] { "г. Санкт-Петербург", "г. С.-Петербург", "гор. Санкт-Петербург" },
+            new string[] { "г. Москва", "Москва", "гор. Москва" },
+            new string[] { "Республика Татарстан", "Республика Татарстан (Татарстан)" }
         };
 
         public static string[] GetAlias(string[][] group, string name)

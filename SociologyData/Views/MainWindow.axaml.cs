@@ -21,9 +21,13 @@ namespace SociologyData.Views
             this.AttachDevTools();
 #endif
             _AvaPlot = this.FindControl<AvaPlot>("MainPlot");
-            _Plot.Legend(location: Alignment.UpperLeft).FillColor = ColorTranslator.FromHtml("#5DFFFFFF");
-            
+            var l = _Plot.Legend(location: Alignment.UpperRight);
+            l.FillColor = ColorTranslator.FromHtml("#5DFFFFFF");
+            l.Font.Size = 22;
             _Plot.YAxis2.Ticks(true);
+            _Plot.YAxis.TickLabelStyle(fontSize: 16);
+            _Plot.YAxis2.TickLabelStyle(fontSize: 16);
+            _Plot.XAxis.TickLabelStyle(fontSize: 20);
         }
 
         private void InitializeComponent()
