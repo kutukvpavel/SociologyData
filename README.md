@@ -7,6 +7,7 @@
 TODO: ComboBox для колонки в таблице (пока что по умолчанию строится вторая колонка, то есть число ДТП по выбранному показателю).
 
 Requirements: .NET 5.0.
+
 Uses: 
  - https://scottplot.net/
  - http://avaloniaui.net/
